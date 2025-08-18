@@ -1,16 +1,16 @@
 {
   "checkpoint_info": {
-    "current_batch": 20,
+    "current_batch": 80,
     "total_batches": 613,
-    "total_processed": 468,
-    "total_coinjoin": 463,
-    "total_normal": 5,
-    "errors": 382,
-    "start_time": "2025-08-18T11:14:53.563964",
-    "checkpoint_time": "2025-08-18T11:44:43.278061"
+    "total_processed": 377,
+    "total_coinjoin": 374,
+    "total_normal": 3,
+    "errors": 23,
+    "start_time": "2025-08-18T16:14:56.883650",
+    "checkpoint_time": "2025-08-18T16:29:42.934908"
   },
   "progress": {
-    "percentage": 3.262642740619902,
-    "remaining_batches": 593
+    "percentage": 13.050570962479608,
+    "remaining_batches": 533
   }
 }

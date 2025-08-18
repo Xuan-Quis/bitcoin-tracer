@@ -1,0 +1,1175 @@
+{
+  "batch_info": {
+    "batch_number": 28,
+    "total_batches": 613,
+    "start_index": 1350,
+    "end_index": 1400,
+    "total_transactions": 30640,
+    "batch_size": 50,
+    "timestamp": "20250818_143528"
+  },
+  "results": [
+    {
+      "txid": "e61bb5b9cb40ad51ccfc2ca37bee82a39b9f896da9a2e78180b49ffe641f8a90",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.4,
+      "reasons": [
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 119,
+        "output_count": 191,
+        "unique_input_addresses": 119,
+        "unique_output_addresses": 191,
+        "output_uniformity": 71,
+        "input_diversity": 119,
+        "transaction_size": 310
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.4397905759162304,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:34:36.268998"
+    },
+    {
+      "txid": "7612d750689e21b5590d92a634c347accc6bad54c536c1badefbc2ecd28be72a",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.5,
+      "reasons": [
+        "Wasabi static detection (coordinator + equal outputs)",
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 70,
+        "output_count": 124,
+        "unique_input_addresses": 69,
+        "unique_output_addresses": 124,
+        "output_uniformity": 42,
+        "input_diversity": 69,
+        "transaction_size": 194
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.46774193548387094,
+      "diversity_score": 0.9857142857142858,
+      "timestamp": "2025-08-18T14:34:37.288505"
+    },
+    {
+      "txid": "17f4d26e4fdabdcc2e77bb8b10610039415be15802bc7c82d96e7de5d48a987a",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.4,
+      "reasons": [
+        "Wasabi static detection (coordinator + equal outputs)",
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 135,
+        "output_count": 207,
+        "unique_input_addresses": 132,
+        "unique_output_addresses": 207,
+        "output_uniformity": 73,
+        "input_diversity": 132,
+        "transaction_size": 342
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.463768115942029,
+      "diversity_score": 0.9777777777777777,
+      "timestamp": "2025-08-18T14:34:38.508572"
+    },
+    {
+      "txid": "87472dfee61528d2e15b388f8f156712e7326b0dc0d0030de09add6194af44f9",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.5,
+      "reasons": [
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 22,
+        "output_count": 39,
+        "unique_input_addresses": 22,
+        "unique_output_addresses": 39,
+        "output_uniformity": 17,
+        "input_diversity": 22,
+        "transaction_size": 61
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.46153846153846156,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:34:39.363724"
+    },
+    {
+      "txid": "ad195fa984e325896074bd52716ceaeac7993466f50fe187d138c030d69fc289",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.5,
+      "reasons": [
+        "Wasabi static detection (coordinator + equal outputs)",
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 53,
+        "output_count": 85,
+        "unique_input_addresses": 53,
+        "unique_output_addresses": 85,
+        "output_uniformity": 21,
+        "input_diversity": 53,
+        "transaction_size": 138
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.5529411764705883,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:34:40.562455"
+    },
+    {
+      "txid": "8d6761acdebe2b04b66b675215d815b7e79c6c017d15b389b1564a36ba611603",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.5,
+      "reasons": [
+        "Wasabi static detection (coordinator + equal outputs)",
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 54,
+        "output_count": 76,
+        "unique_input_addresses": 54,
+        "unique_output_addresses": 76,
+        "output_uniformity": 26,
+        "input_diversity": 54,
+        "transaction_size": 130
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.6052631578947368,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:34:41.600615"
+    },
+    {
+      "txid": "705372229e238d81b75e5be8b04f03f8563a931faa8f6d5a301a3081d3feca0f",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.4,
+      "reasons": [
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 77,
+        "output_count": 141,
+        "unique_input_addresses": 77,
+        "unique_output_addresses": 141,
+        "output_uniformity": 46,
+        "input_diversity": 77,
+        "transaction_size": 218
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.46099290780141844,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:34:42.613478"
+    },
+    {
+      "txid": "b5960d8a4f7ecfea1d5e0aba70620922068d8aca9782b36a79d7133731b19ca2",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.4,
+      "reasons": [
+        "Wasabi static detection (coordinator + equal outputs)",
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 77,
+        "output_count": 128,
+        "unique_input_addresses": 77,
+        "unique_output_addresses": 128,
+        "output_uniformity": 45,
+        "input_diversity": 77,
+        "transaction_size": 205
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.4453125,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:34:43.718793"
+    },
+    {
+      "txid": "fe22a88f912d6fe7423796289f024214195f88f09505ab9f5408dd373a5bfc92",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.5,
+      "reasons": [
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 70,
+        "output_count": 110,
+        "unique_input_addresses": 70,
+        "unique_output_addresses": 110,
+        "output_uniformity": 44,
+        "input_diversity": 70,
+        "transaction_size": 180
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.45454545454545453,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:34:44.740388"
+    },
+    {
+      "txid": "230c1b2626da626b02c22efffb4f0550346497a1ea66b77d6a6814e1f800fce5",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.5,
+      "reasons": [
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 55,
+        "output_count": 85,
+        "unique_input_addresses": 55,
+        "unique_output_addresses": 85,
+        "output_uniformity": 33,
+        "input_diversity": 55,
+        "transaction_size": 140
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.5176470588235295,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:34:45.759505"
+    },
+    {
+      "txid": "fc12e03d1cc3a4705032b64d1edf324222c5cc135afc75fe0351980c31436929",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.4,
+      "reasons": [
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 110,
+        "output_count": 206,
+        "unique_input_addresses": 110,
+        "unique_output_addresses": 206,
+        "output_uniformity": 75,
+        "input_diversity": 110,
+        "transaction_size": 316
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.4223300970873786,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:34:46.933371"
+    },
+    {
+      "txid": "84828de2327df4dd68b080e52b7acf351de261ab38c6f6f89bce35ce9df9fba6",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.5,
+      "reasons": [
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 64,
+        "output_count": 81,
+        "unique_input_addresses": 64,
+        "unique_output_addresses": 81,
+        "output_uniformity": 36,
+        "input_diversity": 64,
+        "transaction_size": 145
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.5185185185185185,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:34:47.958395"
+    },
+    {
+      "txid": "a56c780a0a3172f6be8be7c1d8b23265c4b798f03880bc96df6010c854c9754b",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.4,
+      "reasons": [
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 95,
+        "output_count": 125,
+        "unique_input_addresses": 95,
+        "unique_output_addresses": 125,
+        "output_uniformity": 36,
+        "input_diversity": 95,
+        "transaction_size": 220
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.656,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:34:48.990457"
+    },
+    {
+      "txid": "b87bd0dbd60a810ec7e3d1cb77373dade3c1499e54038af71059461436051bbe",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.5,
+      "reasons": [
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 62,
+        "output_count": 88,
+        "unique_input_addresses": 62,
+        "unique_output_addresses": 88,
+        "output_uniformity": 33,
+        "input_diversity": 62,
+        "transaction_size": 150
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.5113636363636364,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:34:49.993598"
+    },
+    {
+      "txid": "c6dd61871b2937730f337bf09339579bb2492ae2ab187aba0f913842440fb135",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.5,
+      "reasons": [
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 70,
+        "output_count": 97,
+        "unique_input_addresses": 70,
+        "unique_output_addresses": 97,
+        "output_uniformity": 37,
+        "input_diversity": 70,
+        "transaction_size": 167
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.5154639175257731,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:34:51.025142"
+    },
+    {
+      "txid": "3e87212cfe035f97d8e4f414a0b015712166c83a27093f851d1cde3c8af61503",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.5,
+      "reasons": [
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 59,
+        "output_count": 101,
+        "unique_input_addresses": 59,
+        "unique_output_addresses": 101,
+        "output_uniformity": 43,
+        "input_diversity": 59,
+        "transaction_size": 160
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.4752475247524752,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:34:52.075016"
+    },
+    {
+      "txid": "9f67d52da30634d04c22acafe9d0f1e8b5888397a2a7f67528d83d256c655084",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.5,
+      "reasons": [
+        "Wasabi static detection (coordinator + equal outputs)",
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 33,
+        "output_count": 54,
+        "unique_input_addresses": 33,
+        "unique_output_addresses": 54,
+        "output_uniformity": 24,
+        "input_diversity": 33,
+        "transaction_size": 87
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.5740740740740741,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:34:53.080056"
+    },
+    {
+      "txid": "c9a3cc3e09fbdfc77940c26a587569bf1ddb85fc096ba516dffccda5300cb399",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.5,
+      "reasons": [
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 45,
+        "output_count": 78,
+        "unique_input_addresses": 45,
+        "unique_output_addresses": 78,
+        "output_uniformity": 34,
+        "input_diversity": 45,
+        "transaction_size": 123
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.47435897435897434,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:34:54.119280"
+    },
+    {
+      "txid": "d53b8852b4120aad09498b032841199ae205eeef642d1cd53301c87adf941f05",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.4,
+      "reasons": [
+        "Wasabi static detection (coordinator + equal outputs)",
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 78,
+        "output_count": 143,
+        "unique_input_addresses": 78,
+        "unique_output_addresses": 143,
+        "output_uniformity": 47,
+        "input_diversity": 78,
+        "transaction_size": 221
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.5034965034965035,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:34:55.130231"
+    },
+    {
+      "txid": "20c56b50119014459eb827a68dd43d9a922f80da57a3b25483ccd6e4056bfbf8",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.4,
+      "reasons": [
+        "Wasabi static detection (coordinator + equal outputs)",
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 95,
+        "output_count": 168,
+        "unique_input_addresses": 95,
+        "unique_output_addresses": 168,
+        "output_uniformity": 63,
+        "input_diversity": 95,
+        "transaction_size": 263
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.4642857142857143,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:34:56.158699"
+    },
+    {
+      "txid": "93fa36eb97e75e901799ecd87df6c2397b9b3425bffa8ff15983bfe4b4a12628",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.4,
+      "reasons": [
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 121,
+        "output_count": 189,
+        "unique_input_addresses": 120,
+        "unique_output_addresses": 189,
+        "output_uniformity": 68,
+        "input_diversity": 120,
+        "transaction_size": 310
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.4656084656084656,
+      "diversity_score": 0.9917355371900827,
+      "timestamp": "2025-08-18T14:34:57.460280"
+    },
+    {
+      "txid": "c24817bc4f1b64b6aa7604da5ee824fa45dd50ae979149093e0d746b591adc66",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.4,
+      "reasons": [
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 115,
+        "output_count": 180,
+        "unique_input_addresses": 115,
+        "unique_output_addresses": 180,
+        "output_uniformity": 63,
+        "input_diversity": 115,
+        "transaction_size": 295
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.45555555555555555,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:34:58.684107"
+    },
+    {
+      "txid": "128b82cc68ce4a9c78799e887b236f04a50db5f4e29f27717081f5ce0a8c2ad9",
+      "is_coinjoin": false,
+      "detection_method": "none",
+      "score": 0.5,
+      "reasons": [],
+      "indicators": {
+        "input_count": 18,
+        "output_count": 23,
+        "unique_input_addresses": 18,
+        "unique_output_addresses": 23,
+        "output_uniformity": 8,
+        "input_diversity": 18,
+        "transaction_size": 41
+      },
+      "wasabi_detected": false,
+      "samourai_detected": false,
+      "uniformity_score": 0.6956521739130435,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:34:59.502050"
+    },
+    {
+      "txid": "33622471218219846ffe45304cf3d4c666403562d7a1568631b890dbe6d2fa32",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.5,
+      "reasons": [
+        "Wasabi static detection (coordinator + equal outputs)",
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 66,
+        "output_count": 114,
+        "unique_input_addresses": 66,
+        "unique_output_addresses": 114,
+        "output_uniformity": 38,
+        "input_diversity": 66,
+        "transaction_size": 180
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.5087719298245614,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:35:00.747319"
+    },
+    {
+      "txid": "280587b9a8137b1477ed1698d321c878f878a7c491fccfbd010ff11a0f5abcd8",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.5,
+      "reasons": [
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 82,
+        "output_count": 113,
+        "unique_input_addresses": 79,
+        "unique_output_addresses": 113,
+        "output_uniformity": 41,
+        "input_diversity": 79,
+        "transaction_size": 195
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.5398230088495575,
+      "diversity_score": 0.9634146341463414,
+      "timestamp": "2025-08-18T14:35:01.784629"
+    },
+    {
+      "txid": "b92d5bdde5dc09332ccc4bdc999939492d8506f5afea78a69ba4590a2ce2125a",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.4,
+      "reasons": [
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 88,
+        "output_count": 148,
+        "unique_input_addresses": 88,
+        "unique_output_addresses": 148,
+        "output_uniformity": 68,
+        "input_diversity": 88,
+        "transaction_size": 236
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.4594594594594595,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:35:02.788043"
+    },
+    {
+      "txid": "5b7ec229bef58b37b8a11e3fcf050737e5b2789d5fb341b6c94199c7d61c3e79",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.5,
+      "reasons": [
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 41,
+        "output_count": 63,
+        "unique_input_addresses": 41,
+        "unique_output_addresses": 63,
+        "output_uniformity": 23,
+        "input_diversity": 41,
+        "transaction_size": 104
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.5714285714285714,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:35:03.785926"
+    },
+    {
+      "txid": "5a2aa2ac1786cef380546a9c4d36f6eb25c0bc7bc6d81348ac2446ddbc8c28f9",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.5,
+      "reasons": [
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 80,
+        "output_count": 104,
+        "unique_input_addresses": 79,
+        "unique_output_addresses": 104,
+        "output_uniformity": 45,
+        "input_diversity": 79,
+        "transaction_size": 184
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.5288461538461539,
+      "diversity_score": 0.9875,
+      "timestamp": "2025-08-18T14:35:04.900554"
+    },
+    {
+      "txid": "19dde634bc30d0c23108ca8914cde121305ba8f54e1ab1197ea3b5ffebd6e69e",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.4,
+      "reasons": [
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 101,
+        "output_count": 199,
+        "unique_input_addresses": 101,
+        "unique_output_addresses": 199,
+        "output_uniformity": 69,
+        "input_diversity": 101,
+        "transaction_size": 300
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.3869346733668342,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:35:05.974698"
+    },
+    {
+      "txid": "1537b9b26bf3ad51ff6d34664732df237e2591ad5f36d80623f03badc9b9bcd7",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.4,
+      "reasons": [
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 76,
+        "output_count": 141,
+        "unique_input_addresses": 76,
+        "unique_output_addresses": 141,
+        "output_uniformity": 61,
+        "input_diversity": 76,
+        "transaction_size": 217
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.41843971631205673,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:35:06.991230"
+    },
+    {
+      "txid": "fe2597abc9b182d106becc532d48f16cb787df9f5ea950ea586da711ba760c7d",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.5,
+      "reasons": [
+        "Wasabi static detection (coordinator + equal outputs)",
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 41,
+        "output_count": 75,
+        "unique_input_addresses": 41,
+        "unique_output_addresses": 75,
+        "output_uniformity": 35,
+        "input_diversity": 41,
+        "transaction_size": 116
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.5466666666666666,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:35:07.982725"
+    },
+    {
+      "txid": "6f972c8a22820a72d1e03e5f279217e388eddbdb4e25e3de59383c1b4d6a0e51",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.5,
+      "reasons": [
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 65,
+        "output_count": 87,
+        "unique_input_addresses": 64,
+        "unique_output_addresses": 87,
+        "output_uniformity": 38,
+        "input_diversity": 64,
+        "transaction_size": 152
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.47126436781609193,
+      "diversity_score": 0.9846153846153847,
+      "timestamp": "2025-08-18T14:35:09.009934"
+    },
+    {
+      "txid": "e6af2e8eaabf835e604dcfadf484736a080d5c0e04fadb3d3a3d7328499f4001",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.5,
+      "reasons": [
+        "Wasabi static detection (coordinator + equal outputs)",
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 46,
+        "output_count": 66,
+        "unique_input_addresses": 46,
+        "unique_output_addresses": 66,
+        "output_uniformity": 23,
+        "input_diversity": 46,
+        "transaction_size": 112
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.5909090909090909,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:35:10.012701"
+    },
+    {
+      "txid": "d372eff4473fa0c705d4e188ff311d4878e27953cfe5e2fb456fe518bd2ddba7",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.4,
+      "reasons": [
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 82,
+        "output_count": 129,
+        "unique_input_addresses": 82,
+        "unique_output_addresses": 129,
+        "output_uniformity": 48,
+        "input_diversity": 82,
+        "transaction_size": 211
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.4806201550387597,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:35:11.023175"
+    },
+    {
+      "txid": "a24ab40ed7d07d716a9485c1c24c7660f0ea2866d4a563fef7ffac7a4e477c20",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.5,
+      "reasons": [
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 78,
+        "output_count": 104,
+        "unique_input_addresses": 78,
+        "unique_output_addresses": 104,
+        "output_uniformity": 45,
+        "input_diversity": 78,
+        "transaction_size": 182
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.46153846153846156,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:35:12.043099"
+    },
+    {
+      "txid": "462850226d854a5607d5e55c24319bbed2aa227f8d0cc462ecca5439722a0a4a",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.5,
+      "reasons": [
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 41,
+        "output_count": 78,
+        "unique_input_addresses": 41,
+        "unique_output_addresses": 78,
+        "output_uniformity": 35,
+        "input_diversity": 41,
+        "transaction_size": 119
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.4230769230769231,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:35:13.046677"
+    },
+    {
+      "txid": "b7d174d31b814da02eeaeadf0efdfede0ab297aae7b644b2d57311f2fa38f93a",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.4,
+      "reasons": [
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 109,
+        "output_count": 150,
+        "unique_input_addresses": 109,
+        "unique_output_addresses": 150,
+        "output_uniformity": 54,
+        "input_diversity": 109,
+        "transaction_size": 259
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.5133333333333333,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:35:14.057469"
+    },
+    {
+      "txid": "1abf5ec97552ef845f237286ad1e2d698e684a88626eb7a4b5713032d49882ad",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.4,
+      "reasons": [
+        "Wasabi static detection (coordinator + equal outputs)",
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 91,
+        "output_count": 148,
+        "unique_input_addresses": 91,
+        "unique_output_addresses": 148,
+        "output_uniformity": 55,
+        "input_diversity": 91,
+        "transaction_size": 239
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.4527027027027027,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:35:15.088217"
+    },
+    {
+      "txid": "277c7fd9618efa76141235dfb458289a6d989f526384341ca03fa26732711e30",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.5,
+      "reasons": [
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 79,
+        "output_count": 112,
+        "unique_input_addresses": 79,
+        "unique_output_addresses": 112,
+        "output_uniformity": 41,
+        "input_diversity": 79,
+        "transaction_size": 191
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.5089285714285714,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:35:16.121935"
+    },
+    {
+      "txid": "a1a25ed910abde4a5349d268966861877d5b5563b44cd8b166878a0fb768c244",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.5,
+      "reasons": [
+        "Wasabi static detection (coordinator + equal outputs)",
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 75,
+        "output_count": 110,
+        "unique_input_addresses": 75,
+        "unique_output_addresses": 110,
+        "output_uniformity": 42,
+        "input_diversity": 75,
+        "transaction_size": 185
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.5272727272727272,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:35:17.132082"
+    },
+    {
+      "txid": "6406390066c2e93ed870d2a684803f3844f3ca592c8e0e6008eb4a8b166d7585",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.4,
+      "reasons": [
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 113,
+        "output_count": 187,
+        "unique_input_addresses": 112,
+        "unique_output_addresses": 187,
+        "output_uniformity": 74,
+        "input_diversity": 112,
+        "transaction_size": 300
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.47593582887700536,
+      "diversity_score": 0.9911504424778761,
+      "timestamp": "2025-08-18T14:35:18.338853"
+    },
+    {
+      "txid": "28c62d4dadbaf1951211a3c67ccd40147ab9a997a1980c042301b25cda9365d6",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.4,
+      "reasons": [
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 114,
+        "output_count": 165,
+        "unique_input_addresses": 113,
+        "unique_output_addresses": 165,
+        "output_uniformity": 68,
+        "input_diversity": 113,
+        "transaction_size": 279
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.49696969696969695,
+      "diversity_score": 0.9912280701754386,
+      "timestamp": "2025-08-18T14:35:19.432168"
+    },
+    {
+      "txid": "03efdde4cc011d4f7bdd7b18e272ed335022d348040d55c4ac8b4473fca64613",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.4,
+      "reasons": [
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 89,
+        "output_count": 120,
+        "unique_input_addresses": 89,
+        "unique_output_addresses": 120,
+        "output_uniformity": 46,
+        "input_diversity": 89,
+        "transaction_size": 209
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.49166666666666664,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:35:20.444455"
+    },
+    {
+      "txid": "fcfc99f2a430a8c7eb5f28d9f2e30818a0a739ad7cc6954a5071736c1f3ef89c",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.5,
+      "reasons": [
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 70,
+        "output_count": 100,
+        "unique_input_addresses": 70,
+        "unique_output_addresses": 100,
+        "output_uniformity": 38,
+        "input_diversity": 70,
+        "transaction_size": 170
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.53,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:35:21.680283"
+    },
+    {
+      "txid": "b26bba0dd578dbc1aea368cd5b32a521dfd099c86ca7e9199d1c2a26116c4605",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.5,
+      "reasons": [
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 70,
+        "output_count": 109,
+        "unique_input_addresses": 70,
+        "unique_output_addresses": 109,
+        "output_uniformity": 46,
+        "input_diversity": 70,
+        "transaction_size": 179
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.47706422018348627,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:35:22.693826"
+    },
+    {
+      "txid": "614eb0b4341d476ff724456b29af8fc5d83aaf844a1bafe9fe4bf832fab73880",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.4,
+      "reasons": [
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 126,
+        "output_count": 208,
+        "unique_input_addresses": 126,
+        "unique_output_addresses": 208,
+        "output_uniformity": 76,
+        "input_diversity": 126,
+        "transaction_size": 334
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.46153846153846156,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:35:23.877765"
+    },
+    {
+      "txid": "3089f083e5d82635aaeb2bfbcfd9f3bcc667475e5f1f64422374308e6b7d26a1",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.4,
+      "reasons": [
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 112,
+        "output_count": 178,
+        "unique_input_addresses": 112,
+        "unique_output_addresses": 178,
+        "output_uniformity": 62,
+        "input_diversity": 112,
+        "transaction_size": 290
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.47191011235955055,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:35:24.898279"
+    },
+    {
+      "txid": "dd87ce8a8993f7d776db0b429b036cca66866d04a08afb2b033f6152ec30015b",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.4,
+      "reasons": [
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 105,
+        "output_count": 161,
+        "unique_input_addresses": 105,
+        "unique_output_addresses": 161,
+        "output_uniformity": 62,
+        "input_diversity": 105,
+        "transaction_size": 266
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.45962732919254656,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:35:25.966283"
+    },
+    {
+      "txid": "4e5dc47b03c6fc99eba06bb75021f2af11dac85a353ed6203b6db192dbfddaef",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.4,
+      "reasons": [
+        "Wasabi static detection (coordinator + equal outputs)",
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 102,
+        "output_count": 169,
+        "unique_input_addresses": 101,
+        "unique_output_addresses": 169,
+        "output_uniformity": 61,
+        "input_diversity": 101,
+        "transaction_size": 271
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.47928994082840237,
+      "diversity_score": 0.9901960784313726,
+      "timestamp": "2025-08-18T14:35:26.966541"
+    },
+    {
+      "txid": "ae4cc28470a502276a70379578a98142a33fae3fcef9de682409944dd0e47b1a",
+      "is_coinjoin": true,
+      "detection_method": "wasabi",
+      "score": 0.4,
+      "reasons": [
+        "Wasabi heuristic detection (0.1 BTC pattern)"
+      ],
+      "indicators": {
+        "input_count": 90,
+        "output_count": 153,
+        "unique_input_addresses": 90,
+        "unique_output_addresses": 153,
+        "output_uniformity": 61,
+        "input_diversity": 90,
+        "transaction_size": 243
+      },
+      "wasabi_detected": true,
+      "samourai_detected": false,
+      "uniformity_score": 0.47058823529411764,
+      "diversity_score": 1.0,
+      "timestamp": "2025-08-18T14:35:27.989002"
+    }
+  ]
+}

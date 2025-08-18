@@ -1,0 +1,12 @@
+{
+  "batch_info": {
+    "batch_number": 50,
+    "total_batches": 613,
+    "start_index": 2450,
+    "end_index": 2500,
+    "total_transactions": 30640,
+    "batch_size": 50,
+    "timestamp": "20250818_145850"
+  },
+  "results": []
+}
