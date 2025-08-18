@@ -1,0 +1,14 @@
+{
+  "summary": {
+    "total_processed": 200,
+    "total_coinjoin": 1,
+    "total_normal": 199,
+    "detection_rate": 0.5
+  },
+  "score_distribution": {
+    "min_score": 0.25,
+    "max_score": 0.85,
+    "avg_score": 0.5994999999999999
+  },
+  "timestamp": "2025-08-18T10:25:05.160496"
+}

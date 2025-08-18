@@ -1,0 +1,1064 @@
+{
+  "batch_info": {
+    "batch_number": 1,
+    "total_batches": 613,
+    "start_index": 0,
+    "end_index": 50,
+    "total_transactions": 30640,
+    "batch_size": 50,
+    "timestamp": "20250818_102243"
+  },
+  "results": [
+    {
+      "txid": "b6a4a0b81aa70ee3936fcda2f73cc34ad58ef609da9b7fda3834d2c42dec943a",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (60)",
+        "Many outputs (99)",
+        "Diverse inputs (60 unique addresses)",
+        "Large transaction (159 total)"
+      ],
+      "indicators": {
+        "input_count": 60,
+        "output_count": 99,
+        "unique_input_addresses": 60,
+        "unique_output_addresses": 99,
+        "output_uniformity": 42,
+        "input_diversity": 60,
+        "transaction_size": 159
+      },
+      "timestamp": "2025-08-18T10:21:50.766719"
+    },
+    {
+      "txid": "af7bb71cb10b59da0811ed8c37d86b5c9690dd30c9aee381f6cd5fa04e4bb0a6",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (64)",
+        "Many outputs (121)",
+        "Diverse inputs (64 unique addresses)",
+        "Large transaction (185 total)"
+      ],
+      "indicators": {
+        "input_count": 64,
+        "output_count": 121,
+        "unique_input_addresses": 64,
+        "unique_output_addresses": 121,
+        "output_uniformity": 46,
+        "input_diversity": 64,
+        "transaction_size": 185
+      },
+      "timestamp": "2025-08-18T10:21:51.735212"
+    },
+    {
+      "txid": "8faa2c46f4cee1cbb739a754503cb314d0bc8ca8658b5119f49f7eeb2da52432",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (23)",
+        "Many outputs (36)",
+        "Diverse inputs (23 unique addresses)",
+        "Large transaction (59 total)"
+      ],
+      "indicators": {
+        "input_count": 23,
+        "output_count": 36,
+        "unique_input_addresses": 23,
+        "unique_output_addresses": 36,
+        "output_uniformity": 15,
+        "input_diversity": 23,
+        "transaction_size": 59
+      },
+      "timestamp": "2025-08-18T10:21:52.531014"
+    },
+    {
+      "txid": "5bf8e3053d3c3fc7211f50b8230c6c6d23171023a6d26b0e202a7d9f2e1dc1ea",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (80)",
+        "Many outputs (141)",
+        "Diverse inputs (80 unique addresses)",
+        "Large transaction (221 total)"
+      ],
+      "indicators": {
+        "input_count": 80,
+        "output_count": 141,
+        "unique_input_addresses": 80,
+        "unique_output_addresses": 141,
+        "output_uniformity": 52,
+        "input_diversity": 80,
+        "transaction_size": 221
+      },
+      "timestamp": "2025-08-18T10:21:53.547769"
+    },
+    {
+      "txid": "8eca4ab53bf0e9c448b9f501d9e315b97d5bf5782f1b128c93cde4af2f1e7046",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (83)",
+        "Many outputs (119)",
+        "Diverse inputs (83 unique addresses)",
+        "Large transaction (202 total)"
+      ],
+      "indicators": {
+        "input_count": 83,
+        "output_count": 119,
+        "unique_input_addresses": 83,
+        "unique_output_addresses": 119,
+        "output_uniformity": 48,
+        "input_diversity": 83,
+        "transaction_size": 202
+      },
+      "timestamp": "2025-08-18T10:21:54.529459"
+    },
+    {
+      "txid": "db1ceece3f3178fe25c6384d2c0dfc809a959efd5cf23b38f7c05df6f6c76492",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (69)",
+        "Many outputs (98)",
+        "Diverse inputs (69 unique addresses)",
+        "Large transaction (167 total)"
+      ],
+      "indicators": {
+        "input_count": 69,
+        "output_count": 98,
+        "unique_input_addresses": 69,
+        "unique_output_addresses": 98,
+        "output_uniformity": 38,
+        "input_diversity": 69,
+        "transaction_size": 167
+      },
+      "timestamp": "2025-08-18T10:21:55.548267"
+    },
+    {
+      "txid": "6c0e2f7342253b5e642be0f41bfa4796917de66acc4b0014b910e86809859bbe",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (29)",
+        "Many outputs (44)",
+        "Diverse inputs (29 unique addresses)",
+        "Large transaction (73 total)"
+      ],
+      "indicators": {
+        "input_count": 29,
+        "output_count": 44,
+        "unique_input_addresses": 29,
+        "unique_output_addresses": 44,
+        "output_uniformity": 17,
+        "input_diversity": 29,
+        "transaction_size": 73
+      },
+      "timestamp": "2025-08-18T10:21:56.502271"
+    },
+    {
+      "txid": "7286f2e9001dc6e901a2ecb4b5bee2adb1310d8f1f728a9ecbfa851ad3be9e3d",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (101)",
+        "Many outputs (152)",
+        "Diverse inputs (99 unique addresses)",
+        "Large transaction (253 total)"
+      ],
+      "indicators": {
+        "input_count": 101,
+        "output_count": 152,
+        "unique_input_addresses": 99,
+        "unique_output_addresses": 152,
+        "output_uniformity": 60,
+        "input_diversity": 99,
+        "transaction_size": 253
+      },
+      "timestamp": "2025-08-18T10:21:57.507328"
+    },
+    {
+      "txid": "59dd0cfc17b636d5d45d0781fb62361aa9b563381fc4238d4dc166f7d55088f6",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (85)",
+        "Many outputs (115)",
+        "Diverse inputs (85 unique addresses)",
+        "Large transaction (200 total)"
+      ],
+      "indicators": {
+        "input_count": 85,
+        "output_count": 115,
+        "unique_input_addresses": 85,
+        "unique_output_addresses": 115,
+        "output_uniformity": 45,
+        "input_diversity": 85,
+        "transaction_size": 200
+      },
+      "timestamp": "2025-08-18T10:21:58.543561"
+    },
+    {
+      "txid": "c86bf6b4b485c5f032c8377033b0e308a90a97750af49d9cf3be780cc7f9273c",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (76)",
+        "Many outputs (127)",
+        "Diverse inputs (76 unique addresses)",
+        "Large transaction (203 total)"
+      ],
+      "indicators": {
+        "input_count": 76,
+        "output_count": 127,
+        "unique_input_addresses": 76,
+        "unique_output_addresses": 127,
+        "output_uniformity": 49,
+        "input_diversity": 76,
+        "transaction_size": 203
+      },
+      "timestamp": "2025-08-18T10:21:59.548519"
+    },
+    {
+      "txid": "1f5daef92ff186f3284effed3ba552d3065d7e57509342856e1d965b1d68333a",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (47)",
+        "Many outputs (83)",
+        "Diverse inputs (47 unique addresses)",
+        "Large transaction (130 total)"
+      ],
+      "indicators": {
+        "input_count": 47,
+        "output_count": 83,
+        "unique_input_addresses": 47,
+        "unique_output_addresses": 83,
+        "output_uniformity": 36,
+        "input_diversity": 47,
+        "transaction_size": 130
+      },
+      "timestamp": "2025-08-18T10:22:00.563609"
+    },
+    {
+      "txid": "fb4cedfacf6fb7499a8b92926c50f8a53c50d223b9f9733833ad38768756c566",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (37)",
+        "Many outputs (75)",
+        "Diverse inputs (37 unique addresses)",
+        "Large transaction (112 total)"
+      ],
+      "indicators": {
+        "input_count": 37,
+        "output_count": 75,
+        "unique_input_addresses": 37,
+        "unique_output_addresses": 75,
+        "output_uniformity": 34,
+        "input_diversity": 37,
+        "transaction_size": 112
+      },
+      "timestamp": "2025-08-18T10:22:01.498171"
+    },
+    {
+      "txid": "689693f0bfd56eb8574b44f1e9bf7ac413929503778152329bb2a8c6189fc0a5",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (134)",
+        "Many outputs (214)",
+        "Diverse inputs (134 unique addresses)",
+        "Large transaction (348 total)"
+      ],
+      "indicators": {
+        "input_count": 134,
+        "output_count": 214,
+        "unique_input_addresses": 134,
+        "unique_output_addresses": 214,
+        "output_uniformity": 77,
+        "input_diversity": 134,
+        "transaction_size": 348
+      },
+      "timestamp": "2025-08-18T10:22:03.689335"
+    },
+    {
+      "txid": "d9468e467e16afd57f1a677e3a00cf42efd82ffefa526424d0a5ae5220b1296e",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (88)",
+        "Many outputs (134)",
+        "Diverse inputs (88 unique addresses)",
+        "Large transaction (222 total)"
+      ],
+      "indicators": {
+        "input_count": 88,
+        "output_count": 134,
+        "unique_input_addresses": 88,
+        "unique_output_addresses": 134,
+        "output_uniformity": 42,
+        "input_diversity": 88,
+        "transaction_size": 222
+      },
+      "timestamp": "2025-08-18T10:22:04.686685"
+    },
+    {
+      "txid": "2cf00ae84c3e6b1ce3ccbcaff41e5eb3f9303970d7d9a5a5e0c5e592f0ed11af",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (61)",
+        "Many outputs (106)",
+        "Diverse inputs (61 unique addresses)",
+        "Large transaction (167 total)"
+      ],
+      "indicators": {
+        "input_count": 61,
+        "output_count": 106,
+        "unique_input_addresses": 61,
+        "unique_output_addresses": 106,
+        "output_uniformity": 40,
+        "input_diversity": 61,
+        "transaction_size": 167
+      },
+      "timestamp": "2025-08-18T10:22:05.708341"
+    },
+    {
+      "txid": "a967ea5dbaea2ae5ad7cea302a14efa28432cb4ba49d023e05527b87f7c126df",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (84)",
+        "Many outputs (137)",
+        "Diverse inputs (83 unique addresses)",
+        "Large transaction (221 total)"
+      ],
+      "indicators": {
+        "input_count": 84,
+        "output_count": 137,
+        "unique_input_addresses": 83,
+        "unique_output_addresses": 137,
+        "output_uniformity": 51,
+        "input_diversity": 83,
+        "transaction_size": 221
+      },
+      "timestamp": "2025-08-18T10:22:06.714666"
+    },
+    {
+      "txid": "68c33a5da1aa269f08b0d7b23d06926e4a31904eacf6b9f9e91317365e0795b2",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (91)",
+        "Many outputs (126)",
+        "Diverse inputs (91 unique addresses)",
+        "Large transaction (217 total)"
+      ],
+      "indicators": {
+        "input_count": 91,
+        "output_count": 126,
+        "unique_input_addresses": 91,
+        "unique_output_addresses": 126,
+        "output_uniformity": 48,
+        "input_diversity": 91,
+        "transaction_size": 217
+      },
+      "timestamp": "2025-08-18T10:22:07.721787"
+    },
+    {
+      "txid": "1d619d950a9b226f68e6c7590c5603f74b0b2034dbfd1c6855e024d9d5a0461a",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (78)",
+        "Many outputs (129)",
+        "Diverse inputs (78 unique addresses)",
+        "Large transaction (207 total)"
+      ],
+      "indicators": {
+        "input_count": 78,
+        "output_count": 129,
+        "unique_input_addresses": 78,
+        "unique_output_addresses": 129,
+        "output_uniformity": 53,
+        "input_diversity": 78,
+        "transaction_size": 207
+      },
+      "timestamp": "2025-08-18T10:22:08.915563"
+    },
+    {
+      "txid": "f178f44ee8faed15001fa237b3cc5c3f07cfb374241222d5c563589012ff1ce4",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (75)",
+        "Many outputs (131)",
+        "Diverse inputs (75 unique addresses)",
+        "Large transaction (206 total)"
+      ],
+      "indicators": {
+        "input_count": 75,
+        "output_count": 131,
+        "unique_input_addresses": 75,
+        "unique_output_addresses": 131,
+        "output_uniformity": 45,
+        "input_diversity": 75,
+        "transaction_size": 206
+      },
+      "timestamp": "2025-08-18T10:22:09.925839"
+    },
+    {
+      "txid": "382d05e6cd6622072e01db18facee3b46b00712a38b566517c77962863ce6a0d",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (81)",
+        "Many outputs (108)",
+        "Diverse inputs (81 unique addresses)",
+        "Large transaction (189 total)"
+      ],
+      "indicators": {
+        "input_count": 81,
+        "output_count": 108,
+        "unique_input_addresses": 81,
+        "unique_output_addresses": 108,
+        "output_uniformity": 40,
+        "input_diversity": 81,
+        "transaction_size": 189
+      },
+      "timestamp": "2025-08-18T10:22:10.936373"
+    },
+    {
+      "txid": "4761a5675c78f9aafc750e5a2e39addac9b6468312513c7c9d4e0dc2f6ee737f",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (67)",
+        "Many outputs (118)",
+        "Diverse inputs (66 unique addresses)",
+        "Large transaction (185 total)"
+      ],
+      "indicators": {
+        "input_count": 67,
+        "output_count": 118,
+        "unique_input_addresses": 66,
+        "unique_output_addresses": 118,
+        "output_uniformity": 43,
+        "input_diversity": 66,
+        "transaction_size": 185
+      },
+      "timestamp": "2025-08-18T10:22:11.915253"
+    },
+    {
+      "txid": "03c5d52be7b2c548b75839c95fe77031a4c2eec1aa8741bdadafe022d76f1e80",
+      "is_coinjoin": true,
+      "score": 0.85,
+      "reasons": [
+        "Many inputs (14)",
+        "Many outputs (17)",
+        "Uniform outputs (4 unique values)",
+        "Diverse inputs (14 unique addresses)",
+        "Large transaction (31 total)"
+      ],
+      "indicators": {
+        "input_count": 14,
+        "output_count": 17,
+        "unique_input_addresses": 14,
+        "unique_output_addresses": 17,
+        "output_uniformity": 4,
+        "input_diversity": 14,
+        "transaction_size": 31
+      },
+      "timestamp": "2025-08-18T10:22:12.710007"
+    },
+    {
+      "txid": "cf762b1ee7945b897b81171cba3d2414a220537521d47ce37e34b2cac42abb3d",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (85)",
+        "Many outputs (160)",
+        "Diverse inputs (85 unique addresses)",
+        "Large transaction (245 total)"
+      ],
+      "indicators": {
+        "input_count": 85,
+        "output_count": 160,
+        "unique_input_addresses": 85,
+        "unique_output_addresses": 160,
+        "output_uniformity": 53,
+        "input_diversity": 85,
+        "transaction_size": 245
+      },
+      "timestamp": "2025-08-18T10:22:13.725118"
+    },
+    {
+      "txid": "6d6fcf173eedcd9f1c974fbe109aab13921a689278369eb844a7f36321dc5ee9",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (76)",
+        "Many outputs (156)",
+        "Diverse inputs (76 unique addresses)",
+        "Large transaction (232 total)"
+      ],
+      "indicators": {
+        "input_count": 76,
+        "output_count": 156,
+        "unique_input_addresses": 76,
+        "unique_output_addresses": 156,
+        "output_uniformity": 52,
+        "input_diversity": 76,
+        "transaction_size": 232
+      },
+      "timestamp": "2025-08-18T10:22:14.832728"
+    },
+    {
+      "txid": "5666a407edba9237148ac2370d5a0f111818eed226c88c081ea4a9228b0e0a48",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (77)",
+        "Many outputs (104)",
+        "Diverse inputs (77 unique addresses)",
+        "Large transaction (181 total)"
+      ],
+      "indicators": {
+        "input_count": 77,
+        "output_count": 104,
+        "unique_input_addresses": 77,
+        "unique_output_addresses": 104,
+        "output_uniformity": 41,
+        "input_diversity": 77,
+        "transaction_size": 181
+      },
+      "timestamp": "2025-08-18T10:22:15.832883"
+    },
+    {
+      "txid": "0f44118c8d3c4094df509b1e1572dd08284f62ca146fe43ddb89d01ef2f8df6c",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (114)",
+        "Many outputs (181)",
+        "Diverse inputs (108 unique addresses)",
+        "Large transaction (295 total)"
+      ],
+      "indicators": {
+        "input_count": 114,
+        "output_count": 181,
+        "unique_input_addresses": 108,
+        "unique_output_addresses": 181,
+        "output_uniformity": 66,
+        "input_diversity": 108,
+        "transaction_size": 295
+      },
+      "timestamp": "2025-08-18T10:22:16.809026"
+    },
+    {
+      "txid": "5e7d5f52596efb9d28482ef1731339442acb937718ac0082da01cfbd700a735e",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (99)",
+        "Many outputs (174)",
+        "Diverse inputs (99 unique addresses)",
+        "Large transaction (273 total)"
+      ],
+      "indicators": {
+        "input_count": 99,
+        "output_count": 174,
+        "unique_input_addresses": 99,
+        "unique_output_addresses": 174,
+        "output_uniformity": 58,
+        "input_diversity": 99,
+        "transaction_size": 273
+      },
+      "timestamp": "2025-08-18T10:22:17.930911"
+    },
+    {
+      "txid": "c21f14218b998e445cacc9a6cfb9225356a64d44dd4d02a1976eaccc5370552c",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (133)",
+        "Many outputs (181)",
+        "Diverse inputs (133 unique addresses)",
+        "Large transaction (314 total)"
+      ],
+      "indicators": {
+        "input_count": 133,
+        "output_count": 181,
+        "unique_input_addresses": 133,
+        "unique_output_addresses": 181,
+        "output_uniformity": 59,
+        "input_diversity": 133,
+        "transaction_size": 314
+      },
+      "timestamp": "2025-08-18T10:22:19.085409"
+    },
+    {
+      "txid": "860897c7d0e8432d7820f1548064e369a02fafc1e75a71ed72995636c3419611",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (65)",
+        "Many outputs (118)",
+        "Diverse inputs (65 unique addresses)",
+        "Large transaction (183 total)"
+      ],
+      "indicators": {
+        "input_count": 65,
+        "output_count": 118,
+        "unique_input_addresses": 65,
+        "unique_output_addresses": 118,
+        "output_uniformity": 49,
+        "input_diversity": 65,
+        "transaction_size": 183
+      },
+      "timestamp": "2025-08-18T10:22:20.068491"
+    },
+    {
+      "txid": "4fc18c969d3b49bb04397c4e1e954b28dd0a685d87626c8f883980b72c0c5c4a",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (66)",
+        "Many outputs (95)",
+        "Diverse inputs (66 unique addresses)",
+        "Large transaction (161 total)"
+      ],
+      "indicators": {
+        "input_count": 66,
+        "output_count": 95,
+        "unique_input_addresses": 66,
+        "unique_output_addresses": 95,
+        "output_uniformity": 39,
+        "input_diversity": 66,
+        "transaction_size": 161
+      },
+      "timestamp": "2025-08-18T10:22:21.072313"
+    },
+    {
+      "txid": "e857438954271bd9405418a85d7aa73d96c5871a06ced04e264b90930a885f64",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (65)",
+        "Many outputs (85)",
+        "Diverse inputs (65 unique addresses)",
+        "Large transaction (150 total)"
+      ],
+      "indicators": {
+        "input_count": 65,
+        "output_count": 85,
+        "unique_input_addresses": 65,
+        "unique_output_addresses": 85,
+        "output_uniformity": 30,
+        "input_diversity": 65,
+        "transaction_size": 150
+      },
+      "timestamp": "2025-08-18T10:22:22.081292"
+    },
+    {
+      "txid": "b4b421048acbf5b7d44487707efb3664b63f49ced8681329395c781eebdefc78",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (119)",
+        "Many outputs (219)",
+        "Diverse inputs (119 unique addresses)",
+        "Large transaction (338 total)"
+      ],
+      "indicators": {
+        "input_count": 119,
+        "output_count": 219,
+        "unique_input_addresses": 119,
+        "unique_output_addresses": 219,
+        "output_uniformity": 81,
+        "input_diversity": 119,
+        "transaction_size": 338
+      },
+      "timestamp": "2025-08-18T10:22:23.346907"
+    },
+    {
+      "txid": "aca036141f4ad8388e208b5f83af9c67557380fe90160c03026b1d86f28c59da",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (67)",
+        "Many outputs (134)",
+        "Diverse inputs (67 unique addresses)",
+        "Large transaction (201 total)"
+      ],
+      "indicators": {
+        "input_count": 67,
+        "output_count": 134,
+        "unique_input_addresses": 67,
+        "unique_output_addresses": 134,
+        "output_uniformity": 56,
+        "input_diversity": 67,
+        "transaction_size": 201
+      },
+      "timestamp": "2025-08-18T10:22:24.674160"
+    },
+    {
+      "txid": "b6a81a4aa95bfbf082d38233b1f982c39c5328b9a4632e5546bcfea1f3f27739",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (21)",
+        "Many outputs (36)",
+        "Diverse inputs (21 unique addresses)",
+        "Large transaction (57 total)"
+      ],
+      "indicators": {
+        "input_count": 21,
+        "output_count": 36,
+        "unique_input_addresses": 21,
+        "unique_output_addresses": 36,
+        "output_uniformity": 18,
+        "input_diversity": 21,
+        "transaction_size": 57
+      },
+      "timestamp": "2025-08-18T10:22:25.446333"
+    },
+    {
+      "txid": "2ecd8a96863ad3ff720dd26651440a65d0e31b7011f655b761ac07734c01aeaa",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (55)",
+        "Many outputs (66)",
+        "Diverse inputs (55 unique addresses)",
+        "Large transaction (121 total)"
+      ],
+      "indicators": {
+        "input_count": 55,
+        "output_count": 66,
+        "unique_input_addresses": 55,
+        "unique_output_addresses": 66,
+        "output_uniformity": 27,
+        "input_diversity": 55,
+        "transaction_size": 121
+      },
+      "timestamp": "2025-08-18T10:22:26.893177"
+    },
+    {
+      "txid": "4340cdad282c46143c1f821ea256e8f80b106f11f069405397da907f61913a2d",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (86)",
+        "Many outputs (137)",
+        "Diverse inputs (84 unique addresses)",
+        "Large transaction (223 total)"
+      ],
+      "indicators": {
+        "input_count": 86,
+        "output_count": 137,
+        "unique_input_addresses": 84,
+        "unique_output_addresses": 137,
+        "output_uniformity": 46,
+        "input_diversity": 84,
+        "transaction_size": 223
+      },
+      "timestamp": "2025-08-18T10:22:27.957155"
+    },
+    {
+      "txid": "d4ececefb5a7a709b58de5bda5016e355d8c3be78dc157ed77909e93d86220c9",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (59)",
+        "Many outputs (83)",
+        "Diverse inputs (59 unique addresses)",
+        "Large transaction (142 total)"
+      ],
+      "indicators": {
+        "input_count": 59,
+        "output_count": 83,
+        "unique_input_addresses": 59,
+        "unique_output_addresses": 83,
+        "output_uniformity": 37,
+        "input_diversity": 59,
+        "transaction_size": 142
+      },
+      "timestamp": "2025-08-18T10:22:28.928402"
+    },
+    {
+      "txid": "c4592d12214cc7a4cff52a815bb6f0464ccf08f722cc069f751c95c6c84f2a14",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (76)",
+        "Many outputs (129)",
+        "Diverse inputs (76 unique addresses)",
+        "Large transaction (205 total)"
+      ],
+      "indicators": {
+        "input_count": 76,
+        "output_count": 129,
+        "unique_input_addresses": 76,
+        "unique_output_addresses": 129,
+        "output_uniformity": 51,
+        "input_diversity": 76,
+        "transaction_size": 205
+      },
+      "timestamp": "2025-08-18T10:22:29.935522"
+    },
+    {
+      "txid": "ede608052bec1ec20b1556788366c013947fd9f4d6bd231d211c00de655216fe",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (84)",
+        "Many outputs (142)",
+        "Diverse inputs (84 unique addresses)",
+        "Large transaction (226 total)"
+      ],
+      "indicators": {
+        "input_count": 84,
+        "output_count": 142,
+        "unique_input_addresses": 84,
+        "unique_output_addresses": 142,
+        "output_uniformity": 56,
+        "input_diversity": 84,
+        "transaction_size": 226
+      },
+      "timestamp": "2025-08-18T10:22:30.919971"
+    },
+    {
+      "txid": "c39c7cb697b361f0ba1aa1cabd97c2ab62d2e421607b90dabdd17ab3a8e2b19e",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (97)",
+        "Many outputs (143)",
+        "Diverse inputs (96 unique addresses)",
+        "Large transaction (240 total)"
+      ],
+      "indicators": {
+        "input_count": 97,
+        "output_count": 143,
+        "unique_input_addresses": 96,
+        "unique_output_addresses": 143,
+        "output_uniformity": 53,
+        "input_diversity": 96,
+        "transaction_size": 240
+      },
+      "timestamp": "2025-08-18T10:22:31.931394"
+    },
+    {
+      "txid": "16029eb02f199886f96d648a5978a19c5c5d9caec61e57171ca338cfe949dcf8",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (85)",
+        "Many outputs (161)",
+        "Diverse inputs (85 unique addresses)",
+        "Large transaction (246 total)"
+      ],
+      "indicators": {
+        "input_count": 85,
+        "output_count": 161,
+        "unique_input_addresses": 85,
+        "unique_output_addresses": 161,
+        "output_uniformity": 62,
+        "input_diversity": 85,
+        "transaction_size": 246
+      },
+      "timestamp": "2025-08-18T10:22:33.088402"
+    },
+    {
+      "txid": "65112f107699a1f62fe51ae4bad9aa97c6f8ef9a0b348122af51fe2a262afbed",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (101)",
+        "Many outputs (143)",
+        "Diverse inputs (100 unique addresses)",
+        "Large transaction (244 total)"
+      ],
+      "indicators": {
+        "input_count": 101,
+        "output_count": 143,
+        "unique_input_addresses": 100,
+        "unique_output_addresses": 143,
+        "output_uniformity": 60,
+        "input_diversity": 100,
+        "transaction_size": 244
+      },
+      "timestamp": "2025-08-18T10:22:34.074454"
+    },
+    {
+      "txid": "bf9ecf359bc41e53564841b2d29d13cc39ccc820a220e5cc5b033c91cfefaba6",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (64)",
+        "Many outputs (90)",
+        "Diverse inputs (63 unique addresses)",
+        "Large transaction (154 total)"
+      ],
+      "indicators": {
+        "input_count": 64,
+        "output_count": 90,
+        "unique_input_addresses": 63,
+        "unique_output_addresses": 90,
+        "output_uniformity": 36,
+        "input_diversity": 63,
+        "transaction_size": 154
+      },
+      "timestamp": "2025-08-18T10:22:35.046582"
+    },
+    {
+      "txid": "3b504775a5614f438f04d160ed8acfba74bdb69324a27b4a08fc38bca4b8b360",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (109)",
+        "Many outputs (158)",
+        "Diverse inputs (108 unique addresses)",
+        "Large transaction (267 total)"
+      ],
+      "indicators": {
+        "input_count": 109,
+        "output_count": 158,
+        "unique_input_addresses": 108,
+        "unique_output_addresses": 158,
+        "output_uniformity": 62,
+        "input_diversity": 108,
+        "transaction_size": 267
+      },
+      "timestamp": "2025-08-18T10:22:36.484049"
+    },
+    {
+      "txid": "7c4fc0e809081e85e2e48ba85250d24377c35cbe8fa66ac49ebdf228b97366ad",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (76)",
+        "Many outputs (98)",
+        "Diverse inputs (76 unique addresses)",
+        "Large transaction (174 total)"
+      ],
+      "indicators": {
+        "input_count": 76,
+        "output_count": 98,
+        "unique_input_addresses": 76,
+        "unique_output_addresses": 98,
+        "output_uniformity": 39,
+        "input_diversity": 76,
+        "transaction_size": 174
+      },
+      "timestamp": "2025-08-18T10:22:37.583212"
+    },
+    {
+      "txid": "7de8568fc0d55a4e9d0cdeb9ef5abfdc7d660a91a6ede8e54687a28e5df67f25",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (90)",
+        "Many outputs (129)",
+        "Diverse inputs (90 unique addresses)",
+        "Large transaction (219 total)"
+      ],
+      "indicators": {
+        "input_count": 90,
+        "output_count": 129,
+        "unique_input_addresses": 90,
+        "unique_output_addresses": 129,
+        "output_uniformity": 48,
+        "input_diversity": 90,
+        "transaction_size": 219
+      },
+      "timestamp": "2025-08-18T10:22:38.769235"
+    },
+    {
+      "txid": "4ce5ce20f2b926ee544457eee07cf049e178569b9c55a358280ff505a70cd863",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (111)",
+        "Many outputs (232)",
+        "Diverse inputs (111 unique addresses)",
+        "Large transaction (343 total)"
+      ],
+      "indicators": {
+        "input_count": 111,
+        "output_count": 232,
+        "unique_input_addresses": 111,
+        "unique_output_addresses": 232,
+        "output_uniformity": 72,
+        "input_diversity": 111,
+        "transaction_size": 343
+      },
+      "timestamp": "2025-08-18T10:22:39.929635"
+    },
+    {
+      "txid": "c507bf975eac2a718c34c7583470e8bffebbb243160ad96f97b082a400b1a607",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (88)",
+        "Many outputs (153)",
+        "Diverse inputs (88 unique addresses)",
+        "Large transaction (241 total)"
+      ],
+      "indicators": {
+        "input_count": 88,
+        "output_count": 153,
+        "unique_input_addresses": 88,
+        "unique_output_addresses": 153,
+        "output_uniformity": 59,
+        "input_diversity": 88,
+        "transaction_size": 241
+      },
+      "timestamp": "2025-08-18T10:22:40.889763"
+    },
+    {
+      "txid": "2e0159434f5514ea48c800b35b9cfdb5fb79f8b00533b1c6f8a969392e363fda",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (74)",
+        "Many outputs (119)",
+        "Diverse inputs (74 unique addresses)",
+        "Large transaction (193 total)"
+      ],
+      "indicators": {
+        "input_count": 74,
+        "output_count": 119,
+        "unique_input_addresses": 74,
+        "unique_output_addresses": 119,
+        "output_uniformity": 51,
+        "input_diversity": 74,
+        "transaction_size": 193
+      },
+      "timestamp": "2025-08-18T10:22:41.868217"
+    },
+    {
+      "txid": "e17208b7763c57fd25f13672cedc2aa5e7a6077e681fcc7bb2b342d4d443a117",
+      "is_coinjoin": false,
+      "score": 0.6,
+      "reasons": [
+        "Many inputs (63)",
+        "Many outputs (92)",
+        "Diverse inputs (63 unique addresses)",
+        "Large transaction (155 total)"
+      ],
+      "indicators": {
+        "input_count": 63,
+        "output_count": 92,
+        "unique_input_addresses": 63,
+        "unique_output_addresses": 92,
+        "output_uniformity": 42,
+        "input_diversity": 63,
+        "transaction_size": 155
+      },
+      "timestamp": "2025-08-18T10:22:42.857368"
+    }
+  ]
+}

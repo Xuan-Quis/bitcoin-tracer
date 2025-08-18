@@ -1,0 +1,12 @@
+{
+  "total_transactions": 150,
+  "coinjoin_detected": 148,
+  "normal_transactions": 2,
+  "errors": 0,
+  "detection_rate": 0.9866666666666667,
+  "processing_time_minutes": 3.0328619666666667,
+  "transactions_per_minute": 49.458235042876275,
+  "start_time": "2025-08-18T11:09:39.451675",
+  "end_time": "2025-08-18T11:12:41.423393",
+  "duration": "0:03:01.971718"
+}

@@ -1,1 +1,2 @@
+python load_trained_model.py
 python full_scale_train.py
