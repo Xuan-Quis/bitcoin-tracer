@@ -1,0 +1,62 @@
+[
+  {
+    "txid": "e40d3aa03929842c2a59cbccc782f048efbe8fc8517f69aa2c3727854e394dbc",
+    "depth": 0,
+    "is_coinjoin": true,
+    "score": 0.8
+  },
+  {
+    "txid": "20baeaf3b5d2e6d7ce96944256c421eecf9be55f44547426155aaf0132581946",
+    "depth": 0,
+    "is_coinjoin": true,
+    "score": 0.8
+  },
+  {
+    "txid": "783e24e2f90d8901abb50dbbf141c70a000c186528503450329ddb9094bfccbb",
+    "depth": 0,
+    "is_coinjoin": true,
+    "score": 0.8
+  },
+  {
+    "txid": "0a3775ee9e812dbe8e06ddffa5a54752bfe525d87f555db2db2fb25422faf81e",
+    "depth": 0,
+    "is_coinjoin": true,
+    "score": 0.8
+  },
+  {
+    "txid": "29926ff332e333b583802719bb07e19cf0e8fb84ae04b9ed257eee5296738714",
+    "depth": 0,
+    "is_coinjoin": true,
+    "score": 0.8
+  },
+  {
+    "txid": "87d8d9966bd6b99a4092445a1b1d251dee7519d905055d0ae6c2728dc84fd03d",
+    "depth": 0,
+    "is_coinjoin": true,
+    "score": 0.8
+  },
+  {
+    "txid": "1b2831a0faddef1dffda2a7e1dc065a7c1279de54c9dc1a22d189facf66757df",
+    "depth": 0,
+    "is_coinjoin": true,
+    "score": 0.8
+  },
+  {
+    "txid": "68834b497cc9b6fe7ac7dbca9a13cdd6705be4e59a6adb4a5e7dbc1f8064ebd0",
+    "depth": 0,
+    "is_coinjoin": true,
+    "score": 0.8
+  },
+  {
+    "txid": "392a6be3c0c24b60ce1b75278e5cd7a86bf0be8993650121386f052cd485f1c8",
+    "depth": 0,
+    "is_coinjoin": true,
+    "score": 0.8
+  },
+  {
+    "txid": "48024af6d5144d94ce73d8236c23e882a0b13a8f37749e2a961f297d5d127f5c",
+    "depth": 0,
+    "is_coinjoin": true,
+    "score": 0.8
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "total_investigated": 15,
+  "coinjoin_detected": 15,
+  "normal_transactions": 0,
+  "processed_txs": 15,
+  "detection_rate": 1.0
+}
