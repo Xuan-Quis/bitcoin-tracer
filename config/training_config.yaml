@@ -1,0 +1,201 @@
+# Training Configuration for CoinJoin Detection AI
+
+# Data Configuration
+data:
+  test_size: 0.2
+  random_state: 42
+  cv_folds: 5
+  balance_ratio: 0.5  # Ratio of negative to positive samples
+
+# Model Configurations
+models:
+  random_forest:
+    n_estimators: 100
+    max_depth: 10
+    min_samples_split: 2
+    min_samples_leaf: 1
+    random_state: 42
+    n_jobs: -1
+    
+  xgboost:
+    n_estimators: 100
+    max_depth: 6
+    learning_rate: 0.1
+    subsample: 0.8
+    colsample_bytree: 0.8
+    random_state: 42
+    n_jobs: -1
+    
+  lightgbm:
+    n_estimators: 100
+    max_depth: 6
+    learning_rate: 0.1
+    subsample: 0.8
+    colsample_bytree: 0.8
+    random_state: 42
+    n_jobs: -1
+    
+  logistic_regression:
+    C: 1.0
+    penalty: 'l2'
+    solver: 'liblinear'
+    random_state: 42
+    max_iter: 1000
+
+# Neural Network Configuration
+neural_network:
+  layers:
+    - units: 128
+      activation: 'relu'
+      dropout: 0.3
+    - units: 64
+      activation: 'relu'
+      dropout: 0.2
+    - units: 32
+      activation: 'relu'
+      dropout: 0.1
+  optimizer: 'adam'
+  learning_rate: 0.001
+  batch_size: 32
+  epochs: 50
+  validation_split: 0.2
+
+# Feature Engineering
+features:
+  # Transaction features
+  transaction_features:
+    - input_count
+    - output_count
+    - total_input_value
+    - total_output_value
+    - fee
+    - fee_per_byte
+    - tx_size
+    - anomaly_score
+  
+  # Statistical features
+  statistical_features:
+    - output_mean
+    - output_std
+    - output_cv
+    - output_variance
+    - output_uniformity
+    - output_min
+    - output_max
+    - output_range
+    - input_mean
+    - input_std
+    - input_variance
+  
+  # Address features
+  address_features:
+    - unique_input_addresses
+    - unique_output_addresses
+    - input_address_diversity
+    - output_address_diversity
+  
+  # Percentile features
+  percentile_features:
+    - 25
+    - 50
+    - 75
+    - 90
+    - 95
+
+# Training Pipeline
+pipeline:
+  # Data preprocessing
+  preprocessing:
+    scale_features: true
+    handle_missing: 'fill_zero'
+    outlier_removal: false
+  
+  # Model selection
+  model_selection:
+    method: 'grid_search'  # or 'random_search'
+    cv_folds: 5
+    scoring: 'f1'
+  
+  # Hyperparameter tuning
+  hyperparameter_tuning:
+    random_forest:
+      n_estimators: [50, 100, 200]
+      max_depth: [5, 10, 15]
+      min_samples_split: [2, 5, 10]
+    
+    xgboost:
+      n_estimators: [50, 100, 200]
+      max_depth: [3, 6, 9]
+      learning_rate: [0.01, 0.1, 0.2]
+    
+    lightgbm:
+      n_estimators: [50, 100, 200]
+      max_depth: [3, 6, 9]
+      learning_rate: [0.01, 0.1, 0.2]
+
+# Evaluation Configuration
+evaluation:
+  metrics:
+    - precision
+    - recall
+    - f1_score
+    - accuracy
+    - auc
+    - confusion_matrix
+  
+  # Threshold optimization
+  threshold_optimization:
+    enabled: true
+    metric: 'f1'
+    cv_folds: 5
+  
+  # Cross-validation
+  cross_validation:
+    method: 'stratified_kfold'
+    n_splits: 5
+    shuffle: true
+    random_state: 42
+
+# Output Configuration
+output:
+  # Model saving
+  save_models: true
+  save_scalers: true
+  save_feature_names: true
+  save_metadata: true
+  
+  # Results saving
+  save_results: true
+  save_predictions: true
+  save_feature_importance: true
+  
+  # Visualization
+  save_plots: true
+  plot_types:
+    - roc_curve
+    - precision_recall_curve
+    - confusion_matrix
+    - feature_importance
+
+# Logging Configuration
+logging:
+  level: 'INFO'
+  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+  file: 'training.log'
+  console: true
+
+# Performance Configuration
+performance:
+  # Parallel processing
+  n_jobs: -1
+  use_gpu: false
+  
+  # Memory management
+  batch_size: 1000
+  chunk_size: 100
+  
+  # Early stopping
+  early_stopping:
+    enabled: true
+    patience: 10
+    min_delta: 0.001
