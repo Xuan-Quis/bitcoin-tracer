@@ -10,8 +10,8 @@ from typing import List, Dict, Optional, Any
 from abc import ABC, abstractmethod
 import logging
 
-from ..utils.config import Config
-from ..utils.logger import get_logger
+from utils.config import Config
+from utils.logger import get_logger
 
 logger = get_logger(__name__)
 

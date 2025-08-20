@@ -139,6 +139,94 @@ def aggregate_all_data(base_dir: str = '.'):
     return summary, out_path
 
 
+def load_best_model(base_dir: str = '.') -> Dict:
+    """
+    Load model tốt nhất theo detection_rate cao nhất
+    Returns: Dict chứa model data và metadata
+    """
+    models_dir = os.path.join(base_dir, 'data', 'models')
+    snapshot_files = scan_models_dir(models_dir)
+    
+    if not snapshot_files:
+        raise FileNotFoundError('Không tìm thấy model nào trong data/models')
+    
+    best_model = None
+    best_rate = -1.0
+    
+    for path in snapshot_files:
+        try:
+            data = read_json(path)
+            rate = data.get('model_info', {}).get('detection_rate', 0.0)
+            if rate > best_rate:
+                best_rate = rate
+                best_model = {
+                    'path': path,
+                    'data': data,
+                    'detection_rate': rate
+                }
+        except Exception:
+            continue
+    
+    if not best_model:
+        raise ValueError('Không thể load model nào')
+    
+    return best_model
+
+
+def load_all_models(base_dir: str = '.') -> List[Dict]:
+    """
+    Load tất cả models dạng JSON objects
+    Returns: List[Dict] chứa tất cả model data
+    """
+    models_dir = os.path.join(base_dir, 'data', 'models')
+    snapshot_files = scan_models_dir(models_dir)
+    
+    models = []
+    for path in snapshot_files:
+        try:
+            data = read_json(path)
+            models.append({
+                'path': path,
+                'filename': os.path.basename(path),
+                'data': data,
+                'detection_rate': data.get('model_info', {}).get('detection_rate', 0.0),
+                'total_processed': data.get('model_info', {}).get('total_processed', 0),
+                'timestamp': data.get('model_info', {}).get('timestamp', ''),
+                'model_version': data.get('model_info', {}).get('model_version', '')
+            })
+        except Exception:
+            continue
+    
+    # Sắp xếp theo detection_rate giảm dần
+    models.sort(key=lambda x: x['detection_rate'], reverse=True)
+    return models
+
+
+def load_model_by_name(model_name: str, base_dir: str = '.') -> Dict:
+    """
+    Load model theo tên file
+    Args:
+        model_name: Tên file (VD: 'coinjoin_model_000600_20250818_144717.json')
+    Returns: Dict chứa model data
+    """
+    models_dir = os.path.join(base_dir, 'data', 'models')
+    model_path = os.path.join(models_dir, model_name)
+    
+    if not os.path.exists(model_path):
+        raise FileNotFoundError(f'Không tìm thấy model: {model_path}')
+    
+    data = read_json(model_path)
+    return {
+        'path': model_path,
+        'filename': model_name,
+        'data': data,
+        'detection_rate': data.get('model_info', {}).get('detection_rate', 0.0),
+        'total_processed': data.get('model_info', {}).get('total_processed', 0),
+        'timestamp': data.get('model_info', {}).get('timestamp', ''),
+        'model_version': data.get('model_info', {}).get('model_version', '')
+    }
+
+
 def main():
     base_dir = os.path.dirname(os.path.abspath(__file__))
     summary, out_path = aggregate_all_data(base_dir)
@@ -162,6 +250,20 @@ def main():
         print(f"  stats.proccessed_list_len: {s['stats_processed_list_len']}")
         print(f"  stats.coinjoin_list_len: {s['stats_coinjoin_list_len']}")
     print("- Aggregate index saved:", out_path)
+    
+    # Thêm thông tin model tốt nhất
+    try:
+        best_model = load_best_model(base_dir)
+        print(f"\n🏆 MODEL TỐT NHẤT:")
+        print(f"  File: {os.path.basename(best_model['path'])}")
+        print(f"  Detection rate: {best_model['detection_rate']:.4f}")
+        print(f"  Total processed: {best_model['data']['model_info'].get('total_processed', 0)}")
+    except Exception as e:
+        print(f"\n⚠️ Không thể load model tốt nhất: {e}")
+
+
+if __name__ == '__main__':
+    main()
 
 
 if __name__ == '__main__':

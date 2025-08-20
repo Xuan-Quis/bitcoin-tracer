@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+  neo4j:
+    image: neo4j:5.23   # hoặc latest
+    container_name: neo4j
+    restart: unless-stopped
+    environment:
+      - NEO4J_AUTH=neo4j/password123   # user/pass đăng nhập
+      - NEO4J_dbms_memory_pagecache_size=1G
+      - NEO4J_dbms_memory_heap_initial__size=1G
+      - NEO4J_dbms_memory_heap_max__size=2G
+    ports:
+      - "7474:7474"   # Web UI
+      - "7687:7687"   # Bolt protocol (dùng để kết nối driver)
+    volumes:
+      - ./neo4j/data:/data
+      - ./neo4j/logs:/logs
+      - ./neo4j/import:/var/lib/neo4j/import
+      - ./neo4j/plugins:/plugins

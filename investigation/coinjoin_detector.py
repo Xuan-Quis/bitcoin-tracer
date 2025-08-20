@@ -9,8 +9,8 @@ import statistics
 import numpy as np
 from collections import defaultdict
 
-from ..utils.config import Config
-from ..utils.logger import get_logger
+from utils.config import Config
+from utils.logger import get_logger
 
 logger = get_logger(__name__)
 

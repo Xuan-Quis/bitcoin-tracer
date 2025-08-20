@@ -1,0 +1,39 @@
+# API Configuration cho CoinJoin Detection System
+
+# Neo4j Database Configuration
+neo4j:
+  uri: "bolt://192.168.100.128:7687"
+  user: "neo4j"
+  password: "password123"
+
+# Mempool Monitoring Configuration
+mempool:
+  rate_limit: 1.0  # Giây giữa các lần gọi API
+  max_retries: 3
+  timeout: 15
+
+# Investigation Configuration
+investigation:
+  max_depth: 3
+  max_transactions_per_address: 5
+  max_addresses_per_tx: 10
+  consecutive_normal_limit: 10
+
+# API Server Configuration
+server:
+  host: "0.0.0.0"
+  port: 8000
+  debug: true
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/api.log"
+
+# CoinJoin Detection Thresholds
+detection:
+  min_coinjoin_score: 4.0
+  output_uniformity_threshold: 0.8
+  input_diversity_threshold: 3
+  min_transaction_size: 5
