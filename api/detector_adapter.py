@@ -30,6 +30,14 @@ OUR_MIN_OUTPUTS = 5
 OUR_UNIFORMITY_THRESHOLD = 0.8
 OUR_DIVERSITY_THRESHOLD = 0.7
 
+# TỐI ƯU: Thêm ngưỡng để phát hiện exchange-like patterns
+EXCHANGE_LIKE_INDICATORS = {
+    'min_tx_size': 200,  # Giao dịch rất lớn
+    'min_address_count': 50,  # Nhiều địa chỉ
+    'max_value_uniformity': 0.1,  # Giá trị không đồng đều
+    'min_fee_ratio': 0.01  # Phí cao
+}
+
 
 def detect_coinjoin(tx: Dict) -> Dict:
 	"""Detect CoinJoin on a raw tx dict from Blockstream /tx/{txid}.
@@ -114,6 +122,33 @@ def detect_coinjoin(tx: Dict) -> Dict:
 	uniformity_score = (max(value_counts.values()) / len(output_values)) if output_values else 0.0
 	diversity_score = (unique_input_addresses / len(input_addresses)) if input_addresses else 0.0
 
+	# TỐI ƯU: Phát hiện exchange-like patterns để dừng nhánh sớm
+	exchange_like_score = 0.0
+	exchange_reasons: List[str] = []
+	
+	# Kiểm tra kích thước giao dịch
+	if indicators['transaction_size'] > EXCHANGE_LIKE_INDICATORS['min_tx_size']:
+		exchange_like_score += 0.3
+		exchange_reasons.append("Very large transaction")
+	
+	# Kiểm tra số lượng địa chỉ
+	if unique_input_addresses + unique_output_addresses > EXCHANGE_LIKE_INDICATORS['min_address_count']:
+		exchange_like_score += 0.3
+		exchange_reasons.append("Many addresses involved")
+	
+	# Kiểm tra tính đồng đều giá trị
+	if uniformity_score < EXCHANGE_LIKE_INDICATORS['max_value_uniformity']:
+		exchange_like_score += 0.2
+		exchange_reasons.append("Low value uniformity")
+	
+	# Kiểm tra tỷ lệ phí
+	total_input_value = sum(input_values) if input_values else 1
+	total_output_value = sum(output_values) if output_values else 1
+	fee_ratio = (total_input_value - total_output_value) / total_input_value if total_input_value > 0 else 0
+	if fee_ratio > EXCHANGE_LIKE_INDICATORS['min_fee_ratio']:
+		exchange_like_score += 0.2
+		exchange_reasons.append("High fee ratio")
+
 	our_score = 0.0
 	our_reasons: List[str] = []
 	if input_count >= OUR_MIN_INPUTS:
@@ -162,5 +197,8 @@ def detect_coinjoin(tx: Dict) -> Dict:
 		'uniformity_score': uniformity_score,
 		'diversity_score': diversity_score,
 		'wasabi_detected': wasabi_detected,
-		'samourai_detected': samourai_detected
+		'samourai_detected': samourai_detected,
+		# TỐI ƯU: Thêm exchange-like score để hỗ trợ cắt nhánh sớm
+		'exchange_like_score': exchange_like_score,
+		'exchange_reasons': exchange_reasons
 	}

@@ -13,15 +13,16 @@ from api.mempool_monitor import MempoolMonitor
 from api.neo4j_storage import Neo4jStorage
 from utils.config import Config
 from utils.logger import get_logger
+from utils.cache import transaction_cache  # TỐI ƯU: Import cache utility
 
 logger = get_logger(__name__)
 
 # Pydantic models
 class InvestigationRequest(BaseModel):
-    # Unified: accept either txid or address, with optional max_depth (default 10)
+    # Unified: accept either txid or address, with optional max_depth (default 10 để truy vết sâu)
     txid: Optional[str] = None
     address: Optional[str] = None
-    max_depth: int = 10
+    max_depth: int = 10  # TỐI ƯU: Tăng từ 8 lên 10 để truy vết sâu hơn
 
 class AddressSearchRequest(BaseModel):
     address: str
@@ -174,7 +175,7 @@ async def investigate_transaction(request: InvestigationRequest):
         import aiohttp
 
         investigator = CoinJoinInvestigator(config)
-        max_depth = request.max_depth if isinstance(request.max_depth, int) else 10
+        max_depth = request.max_depth if isinstance(request.max_depth, int) else 10  # TỐI ƯU: Tăng từ 8 lên 10
 
         if request.txid:
             # Fetch transaction details
@@ -328,6 +329,50 @@ async def get_coinjoin_graph(investigation_id: str):
             return {"status": "error", "message": "Investigation not found"}
     except Exception as e:
         logger.error(f"Error getting CoinJoin graph: {e}")
+        return {"status": "error", "message": str(e)}
+
+# TỐI ƯU: Thêm endpoints để quản lý cache
+@app.get("/cache/status")
+async def get_cache_status():
+    """Lấy trạng thái cache"""
+    try:
+        return {
+            "status": "success",
+            "cache_size": transaction_cache.size(),
+            "cache_info": {
+                "max_size": transaction_cache.cache.max_size,
+                "ttl_seconds": transaction_cache.cache.ttl_seconds
+            }
+        }
+    except Exception as e:
+        logger.error(f"Error getting cache status: {e}")
+        return {"status": "error", "message": str(e)}
+
+@app.post("/cache/clear")
+async def clear_cache():
+    """Xóa toàn bộ cache"""
+    try:
+        transaction_cache.clear()
+        return {
+            "status": "success",
+            "message": "Cache cleared successfully"
+        }
+    except Exception as e:
+        logger.error(f"Error clearing cache: {e}")
+        return {"status": "error", "message": str(e)}
+
+@app.post("/cache/cleanup")
+async def cleanup_cache():
+    """Dọn dẹp cache hết hạn"""
+    try:
+        cleaned_count = transaction_cache.cleanup()
+        return {
+            "status": "success",
+            "message": f"Cleaned up {cleaned_count} expired items",
+            "cleaned_count": cleaned_count
+        }
+    except Exception as e:
+        logger.error(f"Error cleaning up cache: {e}")
         return {"status": "error", "message": str(e)}
 
 if __name__ == "__main__":

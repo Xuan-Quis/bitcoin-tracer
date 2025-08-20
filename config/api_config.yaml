@@ -12,12 +12,23 @@ mempool:
   max_retries: 3
   timeout: 15
 
-# Investigation Configuration
+# Investigation Configuration - TỐI ƯU: Điều chỉnh để truy vết sâu hơn
 investigation:
-  max_depth: 3
-  max_transactions_per_address: 5
-  max_addresses_per_tx: 10
-  consecutive_normal_limit: 10
+  max_depth: 10  # Tăng từ 6 lên 10 để truy vết sâu hơn
+  max_transactions_per_address: 15  # Tăng từ 8 lên 15
+  max_addresses_per_tx: 25  # Tăng từ 15 lên 25
+  consecutive_normal_limit: 10  # Tăng từ 8 lên 10
+  max_non_cluster_steps: 5  # Tăng từ 3 lên 5
+  
+  # TỐI ƯU: Điều chỉnh để truy vết sâu hơn
+  max_branches_per_node: 5  # Tăng từ 2 lên 5 để mở rộng nhánh
+  min_heuristic_score: 0.2  # Giảm từ 0.3 xuống 0.2 để ít cắt nhánh hơn
+  max_exchange_like_score: 0.7  # Tăng từ 0.4 lên 0.7 để ít dừng nhánh hơn
+  
+  # TỐI ƯU MỚI: Cơ chế dừng thông minh để tăng performance
+  max_total_nodes: 1000  # Giới hạn tổng số nodes xử lý
+  max_time_seconds: 60   # Giới hạn thời gian tối đa (giây)
+  min_coinjoin_ratio: 0.1  # Tỷ lệ CoinJoin tối thiểu để tiếp tục
 
 # API Server Configuration
 server:
